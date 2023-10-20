@@ -1,0 +1,182 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+#main {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+header {
+    background: rgb(78, 43, 234);
+    border-radius: 5px bottom;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.Menu li a {
+    display: block;
+    padding: 10px;
+}
+
+.Menu {
+    display: flex;
+}
+
+.Menu li {
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.city {
+    display: flex;
+    max-width: 320px;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+label {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#main .city input {
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    width: 100%;
+    max-width: 150px;
+    border: solid 2px #C9C9C9;
+    max-width:200px;
+
+}
+
+.stade {
+    display: flex;
+    max-width: 320px;
+    flex-direction: column;
+    margin-right: 25px;
+  
+}
+
+#main .stade input {
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    width: 100%;
+    max-width: 150px;
+    border: solid 2px #C9C9C9;
+}
+
+.date {
+    display: flex;
+    max-width: 320px;
+    flex-direction: column;   
+    margin-right: 25px;
+
+}
+
+#main .date input {
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    width: 100%;
+    max-width: 150px;
+    border: solid 2px #C9C9C9;
+}
+
+.confirm1 {
+    display: flex;
+    max-width: 320px;
+    flex-direction: column;
+    margin-right: 25px;
+
+}
+
+#main .confirm1 input {
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    width: 100%;
+    max-width: 150px;
+    border: solid 2px #C9C9C9;
+}
+
+.deadDay {
+    display: flex;
+    max-width: 320px;
+    flex-direction: column;
+    margin-right: 25px;
+
+}
+
+#main .deadDay input {
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    width: 100%;
+    max-width: 150px;
+    border: solid 2px #C9C9C9;
+}
+#button {
+    background: rgb(78, 43, 234);;
+    color: white;
+    margin-left: 550px;
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    width: 100%;
+    max-width: 200px;
+    border: solid 2px #C9C9C9;}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+canvas {
+    width: 80%;
+    max-width: 600px;
+}
+
+.chart-container {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo img {
+    width: 50px; 
+    height: 50px;
+}
+
+#text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;    
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" type="logo covid" href="./img-covid.png">
+    <script src="script.js"></script>
+    <title>COVID Bases</title>
+
+</head>
+<header class="header">
+    <a href="/">COVID-19</a>
+    <nav>
+       <ul class="Menu">
+          <li>
+            <li><a href="https://covid.saude.gov.br/">Dados</a></li>
+            <li> <a href="/">Sobre </a></li>
+             <li><a href="/">Sua conta</a></li>
+          </li>
+       </ul>
+    </nav>
+</header>
+
+<body>
+  
+   <div id="main">
+    <H1>COVID-19</H1>
+    <p><strong>Sínteses e registros de Cidades, Estados, Datas, confirmações de casos e Óbitos por dia.</strong></p>
+   
+   <h3>FILTROS</h3>
+    
+    <div class="form-group">
+   <div class="city">
+    <label for="Cidades">Cidades</label>
+    <input
+      type="text"
+      name="Cidade"
+      placeholder="Cidades"
+      maxlength="20"
+    />
+  </div>
+
+  <div class="stade">
+    <label for="Estado">Estado</label>
+    <input
+      type="text"
+      name="Estado"
+    
+      placeholder="Estados"
+      maxlength="20"
+    />
+  </div>
+
+  <div class="date">
+    <label for="Datas">Datas</label>
+    <input
+      type="date"
+      name="Datas"
+     
+      placeholder="Data"
+      maxlength="10"
+    />
+  </div>
+
+  <div class="confirm1">
+    <label for="Confirm">Confirmações por dia</label>
+    <input
+      type="date"
+     
+      placeholder="confirmações por dia"
+      maxlength="10"
+    />
+  </div>
+
+  <div  class="deadDay">
+    <label for="obitos">Óbitos por dia </label>
+    <input
+      type="date"
+      name="deaddays"
+      
+      placeholder="óbitos por dia."
+      maxlength="10"
+    />
+  </div>
+</div>
+<br>
+<br>
+
+<button id="button"> Filtrar</button>
+
+<div class="container">
+  <label for="year">Selecione o Ano:</label>
+  <select id="year">
+      <option value="2021">2021</option>
+      <option value="2022">2022</option>
+      <option value="2023">2023</option>
+  </select>
+  <canvas id="myChart"></canvas>
+
+  <div class="summary">
+    <h2>Dados do Estado do Rio de Janeiro</h2>
+    <p>Total de Casos: <span id="totalCases"></span></p>
+    <p>Total de Óbitos: <span id="totalDeaths"></span></p>
+</div>
+<div class="chart-container">
+    <h2>Ranking de Maiores Ocorrências Mensais</h2>
+    <canvas id="monthlyCasesChart"></canvas>
+</div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div id="text1">
+  Painel de casos de doença pelo coronavírus 2019 (COVID-19) no Brasil pelo Ministério da Saúde
+
+</div>
+</div>
+
+</div>
+<footer>
+  <div class="container2">
+      <div class="logo">
+          <a href="https://www.linkedin.com/in/walyson-carvalho-300325263/" target="_blank">
+              <img src="./LinkedIn_logo_initials.png" alt="LinkedIn Logo">
+          </a>
+      </div>
+  </div>
+</footer>
+    
+</body>
+</html>
